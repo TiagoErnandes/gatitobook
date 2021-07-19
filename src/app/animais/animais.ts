@@ -6,5 +6,6 @@ export interface Animal {
   allowComments: boolean;
   comments: number;
   userId: number;
+  likes: number;
 }
 export type Animais = Array<Animal>;
